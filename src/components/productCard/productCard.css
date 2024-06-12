@@ -6,7 +6,15 @@
 }
 
 .product-card>img {
-  width: 100px;
+  width: 100%;
+}
+
+.product-card>img {
+  width: 100%;
+}
+
+.product-card>p {
+  font-size: 10px;
 }
 
 .disable {
