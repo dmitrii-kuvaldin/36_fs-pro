@@ -8,9 +8,14 @@ import Button from '../../components/button/Button';
 function Lesson04() {
   return (
     <div>
-      <h1>Lesson 4: props children</h1>
-      <p>Когда React видит элемент, представляющий пользовательский компонент, он передаёт JSX-атрибуты этому компоненту в виде единственного объекта. Мы называем этот объект «props».
-      Props используются для передачи данных от родительских компонентов дочерним компонентам. Это один из основных механизмов передачи данных в React:</p>
+      <h1 className='heading'>Lesson 4: props children</h1>
+      <p>
+        Когда React видит элемент, представляющий пользовательский компонент, он
+        передаёт JSX-атрибуты этому компоненту в виде единственного объекта. Мы
+        называем этот объект «props». Props используются для передачи данных от
+        родительских компонентов дочерним компонентам. Это один из основных
+        механизмов передачи данных в React:
+      </p>
       {/* синтаксис props похож на html атрибуты
       имя свойства вы придумываете сами и передаете переменную с данными через фигурные скобки
       */}
@@ -18,9 +23,11 @@ function Lesson04() {
       <AnimalCard animalPropsData={lionData} />
       {/* данные с зеброй */}
       <AnimalCard animalPropsData={zebraData} />
-      <p>Здесь мы два раза вызываем один компонент Button но с разными данными:</p>
-      <Button buttonText={'first'} isGetButton={true}/>
-      <Button buttonText={'second'} isGetButton={false}/>
+      <p>
+        Здесь мы два раза вызываем один компонент Button но с разными данными:
+      </p>
+      <Button buttonText={'first'} isGetButton={true} />
+      <Button buttonText={'second'} isGetButton={false} />
     </div>
   );
 }

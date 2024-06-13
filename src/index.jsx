@@ -5,6 +5,7 @@ import './index.css';
 // import Homework03 from './homeworks/homework_03/Homework03';
 import Lesson04 from './lessons/lesson_04/Lesson04';
 
+
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <>

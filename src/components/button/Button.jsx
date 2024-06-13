@@ -1,6 +1,5 @@
 import './button.css';
-function Button({buttonText, isGetButton}) {
-
+function Button({ buttonText, isGetButton }) {
   return (
     <button
       className={`button ${isGetButton ? 'button-danger' : 'button-primary'}`}
@@ -11,5 +10,3 @@ function Button({buttonText, isGetButton}) {
 }
 
 export default Button;
-
-// сделайте так, чтобы при значении true isGetButton кнопки были одного цвета, а при значении false другого
