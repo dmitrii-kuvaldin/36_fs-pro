@@ -10,3 +10,5 @@ function Button({ buttonText, isGetButton }) {
 }
 
 export default Button;
+
+// сделайте так, чтобы при значении true isGetButton кнопки были одного цвета, а при значении false другого
