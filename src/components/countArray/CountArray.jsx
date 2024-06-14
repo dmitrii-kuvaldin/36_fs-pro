@@ -24,9 +24,7 @@ function CountArray() {
 
       <ul>
         {arr.map((el, index) => (
-          <div key={index}>
-            <span>{el}</span>
-          </div>
+          <li key={index}>{el}</li>
         ))}
       </ul>
     </div>
